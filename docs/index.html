@@ -4,6 +4,8 @@
         <title>Get Average Color</title>
     </head>
     <body>
+        <h1>Get average color while also ignoring transparent pixels</h1>
+
         <h1>Step 1: Upload the image file, then press "Load"</h1>
         <form action="#">
         <input type="file" id="imgfile" />
@@ -11,7 +13,7 @@
         </form>
 
         <h1>Step 2: The image you uploaded</h2>
-        <canvas id="canvas"></canvas>
+        <canvas id="canvas" style="background-image: url('https://openclipart.org/image/800px/263304')"></canvas>
 
         <h1>Step 3: This is the average color value</h1>
         <div id="color-value">nothing yet please upload an image</div>
